@@ -1,1 +1,8 @@
-emojipedia.org --> Biblioteca de Emojis, com código para implementação em HTML.
+                SITES ÚTEIS PARA HTML/CSS               
+########################################################
+
+- EMOJIPEDIA.ORG --> Biblioteca de Emojis, com código para implementação em HTML.
+
+- ICONARCHIVE.COM --> Biblioteca de ícones diversos para favicons.
+- FAVICON.CC --> Desenhar seu próprio ícone.
+- FAVICON.IO --> Converter diferentes tipos de arquivo para ícone.
