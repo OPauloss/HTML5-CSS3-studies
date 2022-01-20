@@ -6,3 +6,8 @@
 - ICONARCHIVE.COM --> Biblioteca de ícones diversos para favicons.
 - FAVICON.CC --> Desenhar seu próprio ícone.
 - FAVICON.IO --> Converter diferentes tipos de arquivo para ícone.
+
+#########################################################
+
+- https://www.webfx.com/archive/blog/images/assets/cdn.sixrevisions.com/demos/0345-new_html5_form_input_types/new-html5-form-input-types.html
+---> A URL acima mostra todas os tipos de input existentes em HTML5

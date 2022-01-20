@@ -4,31 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mídias em HTML5</title>
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #aaaaaa;
+        }
+        .asds{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
-    <h1>Imagens dinâmicas</h1>
-    <p>Adaptando o tamanho da imagem de acordo com o tamanho da janela do navegador.</p>
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-        <img src="imagens/foto-g.png" alt="Foto G">
-    </picture>
-    <h1>Inserindo áudios</h1>
-    <p>O mesmo pode ser feito com áudios, reproduzindo um tipo diferente se o navegador não tiver suporte ao primeiro tipo inserido.</p>
-    <audio preload="metadata" controls loop>
-        <source src="../../../Python-studies/Módulo 1/Arquivos/ex021.mp3" type="audio/mpeg">
-        <!-- É possível adicionar quantos sources forem necessários, para cada tipo além do mp3.-->
-    </audio>
-    <h1>Vídeos no site</h1>
-    <p>Para colocar vídeos no site, é muito simples: basta copiar o iframe do youtube ou Vimeo para compartilhar. Para o caso de vídeos hospedados, faça o seguinte:</p>
-    <video width="560" height="315" controls loop>
-        <source src="midia/pexels-sunsetoned-7235417.mp4" type="video/mp4"> <!-- Coloque quantas sources quiser, para todos os tipos de arquivos do vídeo disponíveis.-->
-    </video>
-    <p>Para hosperdar um vídeo do YouTube ou outra plataforma:</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
+    <h1 class="asds">Olá, Mundo!</h1>
 </body>
 </html>
