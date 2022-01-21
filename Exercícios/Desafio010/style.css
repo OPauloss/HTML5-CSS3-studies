@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(projeto/fontes/idroid.otf);
+}
+
+* {
+    box-sizing : border-box;
+}
+body{
+    margin: 0px;
+    background-color: lightgreen;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    width: 850px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    background-image: linear-gradient(to bottom, #2AA563, #2AA25F, #156D3A, #023B1A);
+    border-bottom: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+header > h1{
+    font: 500 2.5em 'Oswald', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 35px 35px 10px 35px;
+    text-align: center;
+    color: #ffffff;
+}
+header > h2{
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1.3em;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+nav > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+nav > a:hover{
+    background-color: #2AA563;
+    border-radius: 5px;
+    color: #023B1A;
+}
+main{
+    text-align: justify;
+    margin: auto;
+}
+main > h1 {
+    font-family: 'idroid';
+    color: #023B1A;
+}
+main > h2 {
+    font-family: 'idroid';
+    color: #023B1A;
+    background-image: linear-gradient(to right, #3df191, #3df19100);
+    padding-left: 10px;
+}
+main > p{
+    text-indent: 20px;
+}
+span{
+    color: #156D3A;
+    font-weight: bold;
+}
+span > a{
+    color: #156D3A;
+    font: bold;
+    text-decoration: none;
+}
+span > a:hover{
+    background-color: #3df191;
+}
+span > a::after{
+    content: '🔗';
+    font-weight: normal;
+    color: darkgray;
+
+}
+#Bugdroid{
+    margin-left: 300px;
+}
+#video{
+    background-color: #156D3A;
+    text-align: center;
+}
+aside{
+    background-color: white;
+    width: 850px;
+    margin: auto;
+}
+h3{
+    margin: 0px;
+    background-color: #156D3A;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 10px
+}
+article{
+    background-color: #c9f3dc;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+article > p{
+    padding: 10px;
+}
+aside{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+aside > p{
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #023B1A;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
